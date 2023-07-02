@@ -126,7 +126,9 @@ button:focus,
 }
 
 .grid__item {
-  background-color: lightgray;
+  background-color: whitesmoke;
+  padding: 25px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .about-body {
@@ -175,6 +177,12 @@ max-width: 700px;
   max-width: 400px;
   max-height: 400px;
   margin-left: 100px;
+}
+
+.portrait-screenshot {
+  max-width: 400px;
+  max-height: 400px;
+  margin-left: 40px;
 }
 
 @keyframes color-change {
