@@ -203,12 +203,14 @@ max-width: 700px;
   max-width: 400px;
   max-height: 400px;
   margin-left: 100px;
+  margin-top: 15px;
 }
 
 .portrait-screenshot {
   max-width: 400px;
   max-height: 400px;
   margin-left: 40px;
+  margin-top: 15px;
 }
 
 @-webkit-keyframes color-change {
