@@ -74,6 +74,10 @@ button:focus,
   border-radius: 50%;
 }
 
+.logo {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
 .page-footer {
   clear: both;
   display: flex;
@@ -120,7 +124,7 @@ button:focus,
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
   grid-gap: 20px;
   padding: 40px;
 }
